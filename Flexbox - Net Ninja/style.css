@@ -1,0 +1,130 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+body{
+    background: #eee;
+    color: #333;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#blocks{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+
+#blocks div{
+    flex: 0 0 100px;
+    padding: 40px 0;
+    background: #ccc;
+    text-align: center;
+}
+
+.one{order: 4;}
+
+.two{order: 1;}
+
+.three{order: 3;}
+
+.four{order: 2;}
+
+/*
+FLEXBOX LESSON 1: INTRODUCTION 
+______________________________________________
+FLEXBOX LESSON 2: put the blocks next to each other
+.flex-container{
+    display: flex;
+    background: white;
+}
+
+.box{
+    height: 100px;
+    min-width: 100px;
+}
+
+.one{
+    background: red;
+}
+
+.two{
+    background: blue;
+}
+
+.three{
+    background: green;
+}
+________________________________________________
+FLEXBOX LESSON 3: how fast something expands
+.one{
+    background:red;
+    flex-grow: 2;
+}
+________________________________________________
+FLEXBOX LESSON 4: how fast something shrinks
+.two{
+    background: blue;
+    flex-shrink: 6;
+}
+_________________________________________________
+FLEXBOX LESSON 5: wrap function
+.flex-container{
+    display: flex;
+    background: white;
+    flex-wrap: wrap;
+}
+_________________________________________________
+FLEXBOX LESSON 6: flex basis - similar to min-width but better
+.box{
+    height: 100px;
+    flex-basis: 600px;
+    flex: 1 0 200px (flex-grow, flex-shrink, flex-basis)
+}
+____________________________________________________
+FLEXBOX LESSON 7: 
+@media screen and (min-width: 768px){
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    nav li{
+        flex: 1 1 0;
+    }
+
+________________________________________________________
+FLEXBOX LESSON 8: creating nested menu's with flexbox
+________________________________________________________
+FLEXBOX LESSON 9: axis - main axis, cross axis
+flex-flow: column-reverse or row or column, etc
+________________________________________________________
+FLEXBOX LESSON 10: 
+
+align-items: center; - applies to cross axis
+justify-content: center; - applies to main axis
+_________________________________________________________
+FLEXBOX LESSON 11: grid vs stackey layout
+<div style="margin: 20px;">
+        <span>Layout:</span>
+        <a href="#" class="stack">Stack</a>
+        <a href="#" class="grid">Grid</a>
+</div>
+_________________________________________________________
+FLEXBOX LESSON 12: element order
+.one{order: 4;}
+
+.two{order: 1;}
+
+.three{order: 3;}
+
+.four{order: 2;}
+
+
+*/
